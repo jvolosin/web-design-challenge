@@ -15,12 +15,135 @@
 
 
   <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="../Web-Design-Challenge/assets/css/style.css">
+  <link rel="stylesheet" href="../web-design-challenge/assets/css/style.css">
 
 </head>
 
 <body>
 
+   <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <!-- NAVBAR TITLE -->
+    <a class="navbar-brand" href="../web-design-challenge/index.html">Latitude</a>
+
+    <!-- NAVBAR MENU -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-end">
+        <li class="nav-item active">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown"
+            href="../web-design-challenge/comparisons.html" role="button" aria-haspopup="true"
+            aria-expanded="false">Plots</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item"
+              href="../web-design-challenge/Visualizations/max-temperature.html">Max Temperature</a>
+            <a class="dropdown-item"
+              href="../web-design-challenge/Visualizations/humidity.html">Humidity</a>
+            <a class="dropdown-item"
+              href="../web-design-challenge/Visualizations/cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="../web-design-challenge/Visualizations/wind_speed.html">Wind
+              Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../web-design-challenge/comparisons.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../web-design-challenge/data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- NAVBAR LIST (FULL WIDTH)-->
+    <ul class="nav nav-pills nav-fill justify-content-end">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">Plots</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item"
+            href="../web-design-challenge/Visualizations/max-temperature.html">Max Temperature</a>
+          <a class="dropdown-item"
+            href="../web-design-challenge/Visualizations/humidity.html">Humidity</a>
+          <a class="dropdown-item"
+            href="../web-design-challenge/Visualizations/cloudiness.html">Cloudiness</a>
+          <a class="dropdown-item" href="../web-design-challenge/Visualizations/wind_speed.html">Wind
+            Speed</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../web-design-challenge/comparisons.html">Comparison</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../web-design-challenge/data.html">Data</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- NAVBAR END -->
+
+  <!-- CONTENTS START -->
+
+  <!-- LEFT BOX -->
+  <div class="container" margin="20px">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="container contents-box">
+          <h1> Summary: Latitude vs. X</h1>
+          <hr>
+          <p> <img src="../web-design-challenge/assets/images/Fig1.png" width="200px" align="left" HSPACE=”10px”
+              VSPACE=”10px”> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+      <!-- RIGHT BOX -->
+      <div class="col-lg-6">
+        <div class="container contents-box">
+
+          <div class="row">
+            <h1> Visualizations</h1>
+          </div>
+    
+          <hr>
+      
+          <div class="row">
+            <div class="col-xl">
+              <h2>vs Max Temperature</h2>
+              <a href="../web-design-challenge/Visualizations/max-temperature.html"><img class="img-fluid" src="../web-design-challenge/assets/images/Fig1.png"></a>
+            </div>
+      
+            <div class="col-xl">
+              <h2>vs Humidity</h2>
+              <a href="../web-design-challenge/Visualizations/humidity.html"><img class="img-fluid" src="../web-design-challenge/assets/images/Fig2.png"></a>
+            </div>
+      
+          </div>
+      
+          <div class="row">
+            <div class="col-xl">
+              <h2>vs Cloudiness</h2>
+              <a href="../web-design-challenge/Visualizations/cloudiness.html"><img class="img-fluid" src="../web-design-challenge/assets/images/Fig3.png"></a>
+            </div>
+      
+            <div class="col-xl">
+              <h2>vs Wind Speed</h2>
+              <a href="../web-design-challenge/Visualizations/wind_speed.html"><img class="img-fluid" src="../web-design-challenge/assets/images/Fig4.png"></a>
+            </div>
+      
+          </div>
+      
+        </div>
+    </div>
+  </div>
 
   <!-- Javascript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
