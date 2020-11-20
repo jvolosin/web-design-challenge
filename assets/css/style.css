@@ -1,1 +1,149 @@
 /* Your stylesheet */
+
+.collapse ul {
+    display: none;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.table-responsive-sm {
+    display:none;
+}
+
+
+
+/*<!-- General Styling -->*/
+
+body {
+    background-color: rgb(196, 189, 189);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    padding: 20px;
+    color: navy;
+    font-weight: bolder;
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.active {
+    background-color: navy    !important;
+}
+
+.selected_box {
+    border: 5px;
+    border-style: double;
+    color: navy;
+}
+
+.contents-box {
+    background-color: white;
+}
+
+.justify-content-end {
+    color: black;
+    text-decoration-color: black;
+}
+
+.nav-link {
+    color: black;
+    text-decoration-color: black;
+
+}
+
+.dropdown {
+    color: black;
+    text-decoration-color: black;
+
+}
+
+.bg-light {
+
+}
+
+.navbar {
+    padding: 0px;
+    border-bottom: 2px solid navy;
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    color: white    !important; 
+    background-color: navy;
+    color-adjust: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/*<!-- LOW WIDTH SETTINGS-->*/
+
+@media (max-width: 600px) {
+    
+    .justify-content-end {
+        display: none;
+        }
+
+    .collapse ul {
+        display: inline;
+        color: white;
+        }
+        
+    .navbar-toggler {
+        display: inline;
+        background-color: teal;
+        }
+    .table-responsive {
+        display: none;
+    }
+    .table-responsive-sm {
+        display: block;
+    }
+
+    .navbar, .bg-light, .navbar-light, .navbar-expand-lg {
+        background-color: navy  !important;
+        color: navy;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: navy;
+        background-color: white;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+
+    a:hover {
+        color: teal;
+        text-decoration: underline;
+        background-color: white !important;
+    }
+
+    .active {
+        background-color: white    !important;
+        color: navy    !important;
+    }
+
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        color:navy !important;
+    }
+}
